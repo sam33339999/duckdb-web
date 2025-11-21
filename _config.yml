@@ -19,6 +19,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   DuckDB is an in-process SQL database management system focused on analytical query processing. It is designed to be easy to install and easy to use. DuckDB has no external dependencies. DuckDB has bindings for C/C++, Python, R, Java, Node.js, Go and other languages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://duckdb.org" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Multi-language settings
+languages: ["en", "zh-TW"]
+default_lang: "en"
+exclude_from_localization: ["assets", "css", "js", "images"]
+
 # Set current codename of DuckDB and version numbers of DuckDB clients
 current_duckdb_codename: "Andium"
 current_short_duckdb_version: "1.4"

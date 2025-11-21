@@ -1,0 +1,29 @@
+{% comment %}
+語言切換器組件
+顯示可用的語言選項並允許使用者切換語言
+{% endcomment %}
+
+{% assign current_lang = page.lang | default: site.default_lang %}
+
+<div class="language-switcher">
+    {% for lang in site.languages %}
+        {% if lang == current_lang %}
+            <span class="lang-current">{{ lang }}</span>
+        {% else %}
+            {% comment %}
+            尋找對應語言的頁面
+            如果當前頁面有翻譯版本,連結到翻譯版本
+            否則連結到該語言的首頁
+            {% endcomment %}
+            {% if lang == "zh-TW" %}
+                {% assign lang_url = page.url | replace: ".html", "-zh-TW.html" | replace: "/index-zh-TW.html", "/zh-TW/" %}
+            {% else %}
+                {% assign lang_url = page.url | replace: "-zh-TW.html", ".html" | replace: "/zh-TW/", "/" %}
+            {% endif %}
+            <a href="{{ lang_url }}" class="lang-option">{{ lang }}</a>
+        {% endif %}
+        {% unless forloop.last %}
+            <span class="lang-separator">|</span>
+        {% endunless %}
+    {% endfor %}
+</div>

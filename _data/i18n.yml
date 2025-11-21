@@ -1,0 +1,162 @@
+# 多語系翻譯資料檔
+# 使用方式: {{ site.data.i18n[page.lang].key_name }}
+
+en:
+  # Navigation
+  documentation: "Documentation"
+  installation: "Installation"
+  blog: "Blog"
+  support: "Support"
+
+  # Landing page
+  fast_analytical_database: "fast analytical database"
+  in_process_database: "in-process database"
+  open_source_database: "open-source database"
+  portable_database: "portable database"
+  query_transform_data: "Query and transform your data anywhere"
+  using_sql_dialect: "using DuckDB's feature-rich SQL dialect"
+  live_demo: "Live demo"
+
+  # Features
+  duckdb_at_glance: "DuckDB at a glance"
+  simple: "Simple"
+  simple_desc: "DuckDB was designed to be simple to use. It has zero dependencies, so it can be installed in seconds and deployed in milliseconds."
+  portable: "Portable"
+  portable_desc: "DuckDB runs on all popular operating systems and hardware architectures. It has idiomatic client APIs for major programming languages."
+  feature_rich: "Feature-rich"
+  feature_rich_desc: "DuckDB supports multiple file formats (CSV, Parquet, and JSON), data lake formats. It can also connect to network and cloud storage."
+  fast: "Fast"
+  fast_desc: "DuckDB runs queries at blazing speed. It uses parallel execution and can process larger-than-memory workloads."
+  extensible: "Extensible"
+  extensible_desc: "DuckDB is extensible by third-party features. User contributions are available as community extensions."
+  free: "Free"
+  free_desc: "DuckDB, its core extensions and the DuckLake format are open-source under the permissive MIT License."
+  read_more: "Read more"
+
+  # Metrics
+  open_source_system: "open-source system"
+  in_clickbench: "in ClickBench hot runs"
+  most_admired_db: "most admired DB"
+  on_stack_overflow: "on Stack Overflow"
+  fortune_100: "Fortune-100"
+  companies_use_duckdb: "companies use DuckDB"
+  downloads_month: "downloads/"
+  month: "month"
+  tpc_h_single_machine: "TPC-H on a single"
+  machine: "machine"
+  see_blog_post: "see"
+  for_details: "for more details"
+
+  # Blog
+  all_blog_posts: "All blog posts"
+
+  # Installation
+  installation_title: "Installation"
+  quick_installation: "Quick Installation"
+
+  # Table of contents
+  in_this_article: "In this article"
+
+  # Footer
+  copyright: "DuckDB is an open-source project licensed under the MIT License"
+
+  # Examples
+  aggregation_query: "Aggregation query"
+  join_query: "Join query"
+  read_csv_files: "Read CSV files"
+  read_remote_csv: "Read remote CSV files"
+  read_parquet_s3: "Read Parquet files from S3"
+  read_remote_parquet: "Read remote Parquet files"
+  spatial_extension: "Spatial extension"
+  sql_query: "SQL query"
+  pandas_integration: "Pandas integration"
+  custom_udfs: "Custom UDFs"
+  dplyr_integration: "dplyr integration"
+  appender: "Appender"
+  web_service_integration: "Web service integration"
+
+  # Documentation links
+  python_documentation: "Python documentation"
+  r_documentation: "R documentation"
+  java_documentation: "Java (JDBC) documentation"
+  nodejs_documentation: "Node.js documentation"
+
+zh-TW:
+  # 導航
+  documentation: "文件"
+  installation: "安裝"
+  blog: "部落格"
+  support: "支援"
+
+  # 首頁
+  fast_analytical_database: "快速分析型資料庫"
+  in_process_database: "行程內資料庫"
+  open_source_database: "開源資料庫"
+  portable_database: "可攜式資料庫"
+  query_transform_data: "隨處查詢和轉換您的資料"
+  using_sql_dialect: "使用 DuckDB 功能豐富的 SQL 語法"
+  live_demo: "線上展示"
+
+  # 功能特色
+  duckdb_at_glance: "DuckDB 一覽"
+  simple: "簡單易用"
+  simple_desc: "DuckDB 設計為簡單易用。它沒有外部相依性,因此可以在幾秒鐘內安裝,並在毫秒內部署。"
+  portable: "跨平台可攜"
+  portable_desc: "DuckDB 可在所有主流作業系統和硬體架構上執行。它為主要程式語言提供慣用的客戶端 API。"
+  feature_rich: "功能豐富"
+  feature_rich_desc: "DuckDB 支援多種檔案格式(CSV、Parquet 和 JSON)、資料湖格式。它還可以連接到網路和雲端儲存。"
+  fast: "速度極快"
+  fast_desc: "DuckDB 以極快的速度執行查詢。它使用平行執行,並可處理超出記憶體容量的工作負載。"
+  extensible: "可擴充性"
+  extensible_desc: "DuckDB 可透過第三方功能進行擴充。使用者貢獻可作為社群擴充套件取得。"
+  free: "免費開源"
+  free_desc: "DuckDB、其核心擴充套件和 DuckLake 格式均採用寬鬆的 MIT 授權條款開源。"
+  read_more: "了解更多"
+
+  # 指標數據
+  open_source_system: "開源系統"
+  in_clickbench: "於 ClickBench 熱執行測試"
+  most_admired_db: "最受歡迎的資料庫"
+  on_stack_overflow: "於 Stack Overflow"
+  fortune_100: "財富百強"
+  companies_use_duckdb: "企業使用 DuckDB"
+  downloads_month: "下載次數/"
+  month: "月"
+  tpc_h_single_machine: "TPC-H 於單一"
+  machine: "機器"
+  see_blog_post: "詳見"
+  for_details: "了解更多詳情"
+
+  # 部落格
+  all_blog_posts: "所有部落格文章"
+
+  # 安裝
+  installation_title: "安裝"
+  quick_installation: "快速安裝"
+
+  # 目錄
+  in_this_article: "本文內容"
+
+  # 頁尾
+  copyright: "DuckDB 是採用 MIT 授權條款的開源專案"
+
+  # 範例
+  aggregation_query: "聚合查詢"
+  join_query: "連接查詢"
+  read_csv_files: "讀取 CSV 檔案"
+  read_remote_csv: "讀取遠端 CSV 檔案"
+  read_parquet_s3: "從 S3 讀取 Parquet 檔案"
+  read_remote_parquet: "讀取遠端 Parquet 檔案"
+  spatial_extension: "空間擴充套件"
+  sql_query: "SQL 查詢"
+  pandas_integration: "Pandas 整合"
+  custom_udfs: "自訂 UDF"
+  dplyr_integration: "dplyr 整合"
+  appender: "資料附加器"
+  web_service_integration: "網路服務整合"
+
+  # 文件連結
+  python_documentation: "Python 文件"
+  r_documentation: "R 文件"
+  java_documentation: "Java (JDBC) 文件"
+  nodejs_documentation: "Node.js 文件"
